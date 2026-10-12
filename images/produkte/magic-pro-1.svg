@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Magic Pro Bild 1">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#22262e"/><stop offset="1" stop-color="#0d0f12"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff5a1f" stop-opacity=".35"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="35%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="300" rx="320" ry="240" fill="url(#glow)"/>
+  
+  <g transform="translate(400 300) scale(0.95) translate(-400 -300)">
+    <rect x="250" y="150" width="330" height="120" rx="60" fill="#2a2f38"/>
+    <rect x="200" y="185" width="70" height="50" rx="10" fill="#3a404b"/>
+    <circle cx="180" cy="210" r="48" fill="#ff5a1f"/>
+    <circle cx="180" cy="210" r="48" fill="url(#shine)"/>
+    <rect x="410" y="240" width="95" height="270" rx="40" fill="#2a2f38"/>
+    <rect x="425" y="300" width="65" height="150" rx="30" fill="#1b1f26"/>
+    <circle cx="530" cy="210" r="22" fill="#1b1f26"/>
+    <circle cx="530" cy="210" r="8" fill="#ff5a1f"/>
+    <rect x="300" y="200" width="150" height="8" rx="4" fill="#ff5a1f" opacity=".85"/>
+  </g>
+  <text x="400" y="560" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#8a919c">Magic Pro · Platzhalter – Produktfoto</text>
+</svg>

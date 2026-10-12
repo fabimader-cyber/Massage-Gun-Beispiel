@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Produkt – Massage Magic</title>
+  <meta name="description" content="Massagepistole von Massage Magic">
+  <meta name="theme-color" content="#0d0f12">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <!-- Diese Seite füllt sich automatisch mit den Daten aus products.json.
+         Welches Produkt angezeigt wird, steht in der Adresse: produkt.html?id=magic-pro -->
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Brotkrumen">
+        <a href="index.html">Start</a> / <a href="index.html#produkte">Produkte</a> / <span id="crumb-name">…</span>
+      </nav>
+      <div id="product-detail"><p class="loading">Produkt wird geladen …</p></div>
+    </div>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Weitere Modelle</h2>
+          <p><a href="index.html#vergleich">Alle Modelle vergleichen →</a></p>
+        </div>
+        <div class="product-grid" data-product-grid="andere"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/layout.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>

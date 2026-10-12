@@ -1,0 +1,98 @@
+{
+  "waehrung": "EUR",
+  "produkte": [
+    {
+      "id": "magic-mini",
+      "kategorie": "massagepistole",
+      "name": "Magic Mini",
+      "untertitel": "Kompakt für unterwegs",
+      "preis": 79.99,
+      "kurzbeschreibung": "Klein, leicht und leise – passt in jede Sporttasche und ist ideal für die schnelle Lockerung zwischendurch.",
+      "beschreibung": "Die Magic Mini ist dein handlicher Begleiter für Gym, Büro und Reisen. Trotz ihrer kompakten Größe bietet sie mehrere Intensitätsstufen und unterstützt dich dabei, nach dem Training oder einem langen Arbeitstag zu entspannen.",
+      "highlight": false,
+      "bilder": [
+        "images/produkte/magic-mini-1.svg",
+        "images/produkte/magic-mini-2.svg",
+        "images/produkte/magic-mini-3.svg"
+      ],
+      "technischeDaten": {
+        "Intensitätsstufen": "4",
+        "Akkulaufzeit": "bis zu 4 Stunden",
+        "Gewicht": "450 g",
+        "Lautstärke": "ca. 40 dB",
+        "Anzahl Aufsätze": "4",
+        "Ladeanschluss": "USB-C"
+      },
+      "lieferumfang": [
+        "Magic Mini Massagepistole",
+        "4 Aufsätze",
+        "USB-C-Ladekabel",
+        "Aufbewahrungstasche",
+        "Bedienungsanleitung (Deutsch)"
+      ],
+      "stripeLink": "https://buy.stripe.com/PLATZHALTER-magic-mini"
+    },
+    {
+      "id": "magic-pro",
+      "kategorie": "massagepistole",
+      "name": "Magic Pro",
+      "untertitel": "Der Allrounder",
+      "preis": 129.99,
+      "kurzbeschreibung": "Die perfekte Balance aus Kraft, Ausdauer und Laufruhe – für alle, die regelmäßig trainieren.",
+      "beschreibung": "Die Magic Pro ist unser Bestseller-Kandidat für ambitionierte Freizeitsportler. Mit mehr Stufen, längerer Akkulaufzeit und sechs Aufsätzen ist sie ideal nach dem Training, vor dem Workout zum Aufwärmen oder zur Entspannung nach langem Sitzen.",
+      "highlight": true,
+      "bilder": [
+        "images/produkte/magic-pro-1.svg",
+        "images/produkte/magic-pro-2.svg",
+        "images/produkte/magic-pro-3.svg"
+      ],
+      "technischeDaten": {
+        "Intensitätsstufen": "6",
+        "Akkulaufzeit": "bis zu 6 Stunden",
+        "Gewicht": "750 g",
+        "Lautstärke": "ca. 45 dB",
+        "Anzahl Aufsätze": "6",
+        "Ladeanschluss": "USB-C"
+      },
+      "lieferumfang": [
+        "Magic Pro Massagepistole",
+        "6 Aufsätze",
+        "USB-C-Ladekabel",
+        "Hochwertiges Transportcase",
+        "Bedienungsanleitung (Deutsch)"
+      ],
+      "stripeLink": "https://buy.stripe.com/PLATZHALTER-magic-pro"
+    },
+    {
+      "id": "magic-max",
+      "kategorie": "massagepistole",
+      "name": "Magic Max",
+      "untertitel": "Maximale Power",
+      "preis": 189.99,
+      "kurzbeschreibung": "Unser stärkstes Modell mit großem Akku und Display – gemacht für intensives Training und große Muskelgruppen.",
+      "beschreibung": "Die Magic Max richtet sich an alle, die keine Kompromisse wollen. Starker Motor, extra große Akkukapazität und acht Aufsätze machen sie zum idealen Begleiter für Kraftsportler, Läufer und alle, die viel von ihrem Körper verlangen.",
+      "highlight": false,
+      "bilder": [
+        "images/produkte/magic-max-1.svg",
+        "images/produkte/magic-max-2.svg",
+        "images/produkte/magic-max-3.svg"
+      ],
+      "technischeDaten": {
+        "Intensitätsstufen": "9",
+        "Akkulaufzeit": "bis zu 8 Stunden",
+        "Gewicht": "950 g",
+        "Lautstärke": "ca. 50 dB",
+        "Anzahl Aufsätze": "8",
+        "Ladeanschluss": "USB-C"
+      },
+      "lieferumfang": [
+        "Magic Max Massagepistole",
+        "8 Aufsätze",
+        "USB-C-Ladekabel",
+        "Premium-Hartschalenkoffer",
+        "Bedienungsanleitung (Deutsch)"
+      ],
+      "stripeLink": "https://buy.stripe.com/PLATZHALTER-magic-max"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Magic Mini Bild 3">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#22262e"/><stop offset="1" stop-color="#0d0f12"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff5a1f" stop-opacity=".35"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="35%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="300" rx="320" ry="240" fill="url(#glow)"/>
+  <circle cx="180" cy="300" r="38" fill="#ff5a1f"/><circle cx="290" cy="300" r="38" fill="#3a404b"/><circle cx="400" cy="300" r="38" fill="#ff5a1f"/><circle cx="510" cy="300" r="38" fill="#3a404b"/><circle cx="620" cy="300" r="38" fill="#ff5a1f"/>
+  <text x="400" y="560" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#8a919c">Magic Mini · Platzhalter – Aufsätze</text>
+</svg>
